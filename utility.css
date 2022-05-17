@@ -1,0 +1,35 @@
+.max-width {
+    max-width: 1440px;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-column{
+    flex-direction: column;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+.h1-title{
+    font-size: 1.7rem;
+    color: #3e4152;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 50px 0 0 2rem;
+}

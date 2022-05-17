@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+@import url("./utility.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* navigation bar starts here*/
+nav {
+  padding: 0 5rem;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#logo img {
+  width: 53px;
+}
+ul {
+  list-style: none;
+  margin-left: 80px;
+}
+ul li {
+  padding-right: 34px;
+}
+ul li:last-child::after {
+  position: relative;
+  content: "new";
+  font-size: 0.8rem;
+  color: red;
+  top: -9px;
+  left: 2px;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+}
+.search-bar {
+  /* border: 1px solid #b2afaf; */
+  border: none;
+  outline: none;
+  background-color: #f5f5f6;
+  margin-left: 40px;
+  margin-right: 53px;
+}
+.search-bar input {
+  padding: 12px 10px;
+  background-color: #f5f5f6;
+  color: #696e79;
+  font-weight: 200;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  width: 17px;
+  margin-left: 20px;
+  filter: invert(45%) sepia(14%) saturate(528%) hue-rotate(202deg)
+    brightness(90%) contrast(93%);
+}
+.icons {
+  margin: 0 10px;
+}
+.icons img {
+  width: 18px;
+}
+.action-name {
+  font-size: 0.7rem;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+/* navigation bar ens here */
+
+/* home banner section starts here */
+#home-carousel {
+  width: 100%;
+  margin-top: 80px;
+}
+.carousel-container {
+  width: 100%;
+  padding: 45px 0 20px 0;
+  background-color: #fff;
+}
+.carousel-controler {
+  margin-top: 5px;
+}
+.carousel-controler span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #dedfe1;
+  border-radius: 50%;
+  margin: 0 7px;
+}
+.carousel-carousel span:first-child() {
+  background-color: #000;
+}
+.carousel-images {
+  overflow: hidden;
+  width: 100vw;
+}
+.showSlides {
+  transition: all 0.5s ease-in;
+}
+.showSlides img {
+  width: 100vw;
+}
+.dod-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+}
+.dod-container img {
+  width: 12.5vw;
+}
+.best-brands-container{
+  margin-top: 50px;
+}
+.best-brands-container .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.best-brands-container .row img {
+  width: 12.5vw;
+  padding: 2.5px;
+}
